@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffffff, rgb(125,125,235)); /* Light purple gradient */
+    color:rgb(125,125,235); /* Dark purple text color */
+}
+
+header {
+    background-color:rgb(125,125,235); /* Medium purple */
+    color: white; /* White text for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white; /* White links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #c971ff; /* Darker purple for headings */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.9); /* White background for list items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+    background-color: #7b1fa2; /* Button background */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6a1b9a; /* Darker purple on hover */
+}
+
+footer {
+    background-color:rgb(125,125,235); /* Medium purple */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Changed to relative for better footer positioning */
+    bottom: 0;
+    width: 100%;
+}
